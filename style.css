@@ -326,7 +326,7 @@ nav .inner ul li a:hover {
   right: -20px;
   width: 708px;
   height: 711px;
-  background: url(../img/bg.svg) center center/cover no-repeat;
+  background: url(bg.svg) center center/cover no-repeat;
   z-index: -1;
 }
 
