@@ -326,7 +326,7 @@ nav .inner ul li a:hover {
   right: -20px;
   width: 708px;
   height: 711px;
-  background: url(bg.svg) center center/cover no-repeat;
+  background: url(../img/bg.svg) center center/cover no-repeat;
   z-index: -1;
 }
 
@@ -863,7 +863,7 @@ nav .inner ul li a:hover {
 }
 
 .blog .blog-container .blog-wrapper .blog-box .blog-link:hover {
-  opacity: 0, 8;
+  opacity: 0.8;
 }
 
 .blog .blog-container .blog-wrapper .blog-box .blog-link .blog-picture {
