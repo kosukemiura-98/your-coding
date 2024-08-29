@@ -4,231 +4,510 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TOKUAN</title>
 </head>
 
 <body>
-  <!-- reser.css -->
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- reset.css -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <!-- style.css -->
   <link rel="stylesheet" href="assets/css/style.css">
-
-  <main>
-    <section class="main1">
-      <img src="assets/images/main1.png" alt="困っているあなたをケーブルスマホで救いたい！">
-    </section>
-    <section class="main2">
-      <img src="assets/images/main2.png" alt="そろそろスマホ乗り換えたいけど…">
-    </section>
-    <section class="main3">
-      <img src="assets/images/main3.png" alt="ケーブルスマホが選ばれる理由">
-    </section>
-    <section class="main4">
-      <img src="assets/images/main4.png" alt="サポート充実だけじゃない！">
-    </section>
-    <section class="main5">
-      <img src="assets/images/main5.png" alt="人気の料金プラン">
-    </section>
-    <section class="main6">
-      <img src="assets/images/main6.png" alt="スマホだけのお申し込みもOK！">
-    </section>
-    <section class="contact">
-      <div class="contact__area">
-        <h2 class="contact__title">
-          今すぐのお申し込みや<br class="is-sp">ご相談も承っております。<br>
-          お気軽にご連絡ください。
-        </h2>
-        <p class="contact__text">無料相談お申し込み</p>
-        <p class="contact__txt">
-          無料相談はこちらからお申し込みください。<br>
-          また、資料請求やその他のお問い合わせも<br class="is-sp">こちらからどうぞ。
-        </p>
-        <h3 class="contact__ttl">お電話での相談ご依頼は</h3>
-        <a href="tel:08008050126" class="contact__number"><span
-            class="contact__number--inline">Tel.</span>0800-805-0126</a>
-        <p class="contact__hour">通話料無料・24時間受付</p>
-        <h3 class="contact__ttl">相談お申し込みフォーム</h3>
-        <form action="mail.php" class="contact__form" method="post">
-          <div class="contact__rows">
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name required">ご希望のサービス</p>
-              </div>
-              <div class="contact__right">
-                <div class="contact__radios">
-                  <input type="radio" name="ご希望のサービス" class="contact__radio" checked>
-                  <label class="contact__label" for="service">ケーブルスマホ</label>
-                </div>
-              </div>
+  <main class="main">
+    <div class="fv">
+      <div class="container">
+        <div class="swiper-container main-slider">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide">
+              <img src="assets/images/2024_slide1.jpg" alt="綸子">
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/images/2024_slide2.jpg" alt="龍柄">
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/images/2024_slide3.jpg" alt="金襴">
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/images/2024_slide1.jpg" alt="綸子">
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/images/2024_slide2.jpg" alt="龍柄">
+            </a>
+            <a href="#" class="swiper-slide">
+              <img src="assets/images/2024_slide3.jpg" alt="金襴">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-container thumb-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/images/2024_slide1.jpg" alt="綸子">
             </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name required">お問い合わせ内容</p>
-              </div>
-              <div class="contact__right">
-                <div class="contact__radios">
-                  <input type="radio" name="お問い合わせ内容" id="consultation" class="contact__radio">
-                  <label class="contact__label" for="consultation">無料相談</label>
-                </div>
-                <div class="contact__radios">
-                  <input type="radio" name="お問い合わせ内容" id="application" class="contact__radio">
-                  <label class="contact__label" for="application">申し込み希望</label>
-                </div>
-                <div class="contact__radios">
-                  <input type="radio" name="お問い合わせ内容" id="other" class="contact__radio">
-                  <label class="contact__label" for="other">その他</label>
-                </div>
-              </div>
+            <div class="swiper-slide">
+              <img src="assets/images/2024_slide2.jpg" alt="龍柄">
             </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name required">お名前</p>
-              </div>
-              <div class="contact__right">
-                <input type="text" name="お名前" placeholder="例:山田　太郎">
-              </div>
-            </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name">ふりがな</p>
-              </div>
-              <div class="contact__right">
-                <input type="text" name="ふりがな" placeholder="例:ヤマダ　タロウ">
-              </div>
-            </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name required">メールアドレス</p>
-              </div>
-              <div class="contact__right">
-                <input type="email" name="メールアドレス" placeholder="例:info@cc9.ne.jp">
-              </div>
-            </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name">ご住所</p>
-              </div>
-              <div class="contact__right contact__right2">
-                <div class="contact__rightArea">
-                  <div class="contact__rights">
-                    <input type="text" name="県" placeholder="例:栃木">
-                    <p class="contact__content">県</p>
-                  </div>
-                  <div class="contact__rights">
-                    <input type="text" name="市" placeholder="例:栃木">
-                    <p class="contact__content">市</p>
-                  </div>
-                </div>
-                <div class="contact__rights contact__rights2">
-                  <p class="contact__content">町村・丁目・番地</p>
-                  <input type="text" name="町村・丁目・番地" placeholder="例:〇〇町1-234-5">
-                </div>
-                <div class="contact__rights">
-                  <p class="contact__content">建物名</p>
-                  <input class="contact__building" type="text" name="建物名" placeholder="例:〇〇マンション 1号棟 3F">
-                </div>
-                <div class="contact__rights">
-                  <p class="contact__content">部屋番号</p>
-                  <input type="text" name="部屋番号" placeholder="例:123">
-                </div>
-              </div>
-            </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name required">電話番号</p>
-              </div>
-              <div class="contact__right">
-                <input type="tel" name="電話番号" placeholder="例:0123-45-6789">
-              </div>
-            </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name required">ご連絡可能時間帯</p>
-              </div>
-              <div class="contact__right contact__right2">
-                <div class="contact__rightArea contact__rightArea2">
-                  <div class="contact__rights">
-                    <p class="contact__content contact__content2">平日</p>
-                    <select name="平日">
-                      <option value="0" disabled selected>▼お選びください</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
-                  <div class="contact__rights">
-                    <p class="contact__content contact__content3">土日祝</p>
-                    <select name="土日祝">
-                      <option value="0" disabled selected>▼お選びください</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
-                </div>
-                <p class="contact__caution">※細やかなご指定がある場合は「ご質問等」に<br class="is-sp">ご記入ください。</p>
-              </div>
-            </div>
-            <div class="contact__row">
-              <div class="contact__left">
-                <p class="contact__name">ご質問等</p>
-              </div>
-              <div class="contact__right">
-                <textarea name="ご質問等" placeholder="例:料金について詳しく知りたい。"></textarea>
-              </div>
+            <div class="swiper-slide">
+              <img src="assets/images/2024_slide3.jpg" alt="金襴">
             </div>
           </div>
-          <p class="contact__attention"><span class="contact__attention--inline">※</span>は必須項目です。</p>
-          <div class="contact__policyArea">
-            <p class="contact__lead"> 個人情報保護ポリシー</p>
-            <p class="contact__policy">
-              ■事業者の氏名または名称および個人情報保護管理責任者について<br>
-              ケーブルテレビ株式会社　管理部人事総務課課長<br>
-              <br>
-              ■個人情報の利用目的について<br>
-              ご入力いただいた個人情報は、お申込みのために利用致します。<br>
-              <br>
-              ■個人情報の第三者提供について<br>
-              法令に基づく場合を除き、取得した個人情報を第三者に提供することはありません。<br>
-              <br>
-              ■個人情報取扱の委託について<br>
-              取得した個人情報の取扱いの全部又は、一部を委託する場合があります。<br>
-              <br>
-              ■開示対象個人情報の開示等及びお問合わせ窓口について<br>
-              開示等のお申し出は、下記の「お問合わせ先」にご申請ください。<br>
-              当社が保有する開示対象個人情報の利用目的の通知・開示・内容の訂正・追加又は削除・利用の停止・消去及第三者への提供の停止（「開示等」といいます）に応じます。<br>
-              <br>
-              【お問合わせ先】<br>
-              〒328-0024<br>
-              栃木県栃木市樋ノ口町43-5<br>
-              ケーブルテレビ株式会社<br>
-              個人情報に関する受付問い合わせ窓口行<br>
-              <br>
-              個人情報保護に対する基本方針(PDF) (2011年7月1日更新)<br>
-              個人情報の保護に関する公表事項(PDF) (2023年5月1日更新)<br>
-              <br>
-              ■任意性について<br>
-              個人情報の入力は任意ですが、必須項目の入力がない場合は、お問合わせにご回答ができない場合がありますので、あらかじめご了承ください。<br>
-              <br>
-              ■本人が容易に認識できない方法による個人情報の取得について<br>
-              クッキーやウェブビーコン等を用いるなどして、本人が容易に認識できない方法による個人情報の取得は行っておりません。<br>
-              <br>
-              ■個人情報の安全管理措置について<br>
-              取得した個人情報については、漏洩、減失またはき損の防止と是正、その他個人情報の安全管理のために必要かつ適切な措置を講じます。お問合せへの回答後、取得した個人情報は当社内において削除致します。<br>
-              上記の個人情報の取扱いに関する事項について、同意される方は「同意する」にチェックをいれてください。
-            </p>
-          </div>
-          <div class="contact__checkArea">
-            <input type="checkbox" name="同意する" class="contact__checkbox" id="checkbox">
-            <label for="checkbox" class="contact__label2">同意する</label>
-          </div>
-          <div class="contact__submitArea">
-            <input type="submit" class="contact__submit" value="送信する">
-          </div>
-        </form>
+        </div>
       </div>
-    </section>
+    </div>
+
+    <div class="info">
+      <div class="container">
+        <div class="info__boxs">
+          <div class="info__box">
+            <div class="info__header">
+              <p class="info__title">新入荷</p>
+              <a href="#" class="info__more">新入荷商品一覧</a>
+            </div>
+            <div class="info__body">
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+            </div>
+          </div>
+          <div class="info__box">
+            <div class="info__header">
+              <p class="info__title">再入荷</p>
+              <a href="#" class="info__more">再入荷商品一覧</a>
+            </div>
+            <div class="info__body">
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+              <a href="#" class="info__article">
+                <p class="info__date">2024.9.1</p>
+                <p class="info__ttl">ここに商品情報が入ります。ここに商品情報が入ります。</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="container">
+        <a href="#" class="banner__picture">
+          <img src="assets/images/2024_banner1.jpg" alt="金襴">
+        </a>
+        <div class="banner__pics">
+          <a href="#" class="banner__pic">
+            <img src="assets/images/2024_banner2.jpg" alt="綸子">
+          </a>
+          <a href="#" class="banner__pic">
+            <img src="assets/images/2024_banner3.jpg" alt="龍柄">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cat">
+      <div class="container">
+        <div class="cat__boxs">
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat1.jpg" alt="鷹・虎・鯉">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat2.jpg" alt="ミュージカル・舞台衣装生地">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat3.jpg" alt="祭り生地特集">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat4.jpg" alt="美しい花柄">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat5.jpg" alt="華やかな鳳凰">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat6.jpg" alt="人物の模様">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat7.jpg" alt="仏事生地">
+          </a>
+          <a href="#" class="cat__box">
+            <img src="assets/images/2024_cat8.jpg" alt="かわいい桜柄">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="rank">
+      <div class="container">
+        <div class="rank__area">
+          <div class="rank__header">
+            <p class="rank__title">人気商品</p>
+          </div>
+          <div class="rank__body">
+            <div class="rank__boxs">
+              <a href="#" class="rank__box">
+                <div class="rank__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="rank__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="rank__box">
+                <div class="rank__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="rank__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="rank__box">
+                <div class="rank__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="rank__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="rank__box">
+                <div class="rank__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="rank__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="rank__box">
+                <div class="rank__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="rank__ttl">ここに商品名が入ります。</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pick">
+      <div class="container">
+        <div class="pick__area">
+          <div class="pick__header">
+            <p class="pick__title">ピックアップ商品</p>
+          </div>
+          <div class="pick__body">
+            <div class="pick__boxs">
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+              <a href="#" class="pick__box">
+                <div class="pick__picture">
+                  <img src="https://placehold.jp/150x150.png" alt="">
+                </div>
+                <p class="pick__ttl">ここに商品名が入ります。</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="user">
+      <div class="container">
+        <div class="user__area">
+          <div class="user__header">
+            <p class="user__title">お客様作品集</p>
+          </div>
+          <div class="user__body">
+            <div class="user__boxs">
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user1.jpg" alt="作品集1">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user2.jpg" alt="作品集2">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user3.jpg" alt="作品集3">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user4.jpg" alt="作品集4">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user5.jpg" alt="作品集5">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user6.jpg" alt="作品集6">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user7.jpg" alt="作品集7">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user8.jpg" alt="作品集8">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user9.jpg" alt="作品集9">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user10.jpg" alt="作品集10">
+                </div>
+              </div>
+              <div class="user__box">
+                <div class="user__picture">
+                  <img src="assets/images/2024_user11.jpg" alt="作品集11">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__areas">
+        <div class="footer__area">
+          <div class="footer__box">
+            <p class="footer__title">お支払いについて</p>
+            <p class="footer__text">お支払いは以下の方法がご利用頂けます。</p>
+            <div class="footer__picture">
+              <img src="assets/images/2024_pay1.jpg" alt="支払い方法1">
+            </div>
+            <p class="footer__text">※上のいずれかのクレジットカードでお支払いになると、お客様のクレジットカード番号はご注文先ストアを経由せずカード会社に送信されるため安心です。</p>
+            <div class="footer__picture">
+              <img src="assets/images/2024_pay2.jpg" alt="支払い方法2">
+            </div>
+            <div class="footer__moreArea">
+              <a href="#" class="footer__more">詳しくはこちら</a>
+            </div>
+          </div>
+          <div class="footer__box">
+            <p class="footer__title">配送について</p>
+            <p class="footer__text">
+              配送はクロネコヤマト宅急便、佐川急便にてお届けいたします<br>
+              ※配送業者は選べません。
+            </p>
+            <p class="footer__text">
+              ・銀行振込、郵便振替、各種コンビニ払い、各種モバイル決済、Pay-easy、モバイルSuica<br>
+              <span class="footer__text--bold">⇒ご入金確認後3営業日以内に発送いたします。</span><br>
+              ・クレジット、代金引換（クロネコヤマト宅急便のみ）<br>
+              <span class="footer__text--bold">⇒ご注文確認後3営業日以内に発送いたします。</span>
+            </p>
+            <p class="footer__text">
+              また、配達日時指定も承ります。<br>
+              クロネコヤマト宅急便（ネコポスは除く）の指定できる時間帯は以下の通りです。
+            </p>
+            <div class="footer__picture">
+              <img src="assets/images/2024_yamato.gif" alt="配送時間帯">
+            </div>
+            <p class="footer__text">
+              配達時間帯指定は到着の目安です。交通事情や天候により前後することがございますので余裕を持ってご注文ください。<br>
+              ネコポスはポスト投函です、到着日時の指定は出来ません。
+            </p>
+            <div class="footer__moreArea">
+              <a href="#" class="footer__more">詳しくはこちら</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__area">
+          <div class="footer__box">
+            <p class="footer__title">返品について</p>
+            <p class="footer__text">
+              注文数量・色選択の間違、商品のイメージ違い等によるお客様のご都合による返品・交換は ご遠慮いただいております。<br>
+              <span
+                class="footer__text--red">※商品がお手元に届きましたら、ご注文の品と違ったものが送られていないかすぐにご確認ください。誤って送った商品でも、鋏を入れたものや縫製したものは返品できません。</span><br>
+              破損・汚損・ご注文と違う商品が届いた等の不良がございましたら返品前にショップまでご連絡ください。
+            </p>
+            <div class="footer__moreArea">
+              <a href="#" class="footer__more">詳しくはこちら</a>
+            </div>
+          </div>
+          <div class="footer__box">
+            <p class="footer__title">お問い合わせ</p>
+            <p class="footer__text">
+              有限会社ミズ・オガワ<br>
+              〒107-0062<br>
+              東京都港区南青山4丁目1番15号 アルテカベルテプラザビル203<br>
+              （実店舗ではありません。生地を直接ご覧になりたいお客様は事前に予約をお願いいたします。）
+            </p>
+            <p class="footer__text">
+              TEL:03-6721-1219 FAX:03-6721-1269<br>
+              営業時間/平日10:00～18:00<br>
+              定休日/土曜日・日曜日・祝祭日
+            </p>
+            <p class="footer__text">
+              ネットでのご注文は24時間受け付けております。<br>
+              お電話でのお問合せは営業時間内にお願いします。<br>
+              土曜・日曜・祝祭日はお休みをいただいております。メールの返信は翌営業日以降となりますので、ご了承ください。
+            </p>
+            <div class="footer__moreArea">
+              <a href="#" class="footer__more">詳しくはこちら</a>
+            </div>
+          </div>
+          <div class="footer__box">
+            <p class="footer__title">個人情報の取り扱いについて</p>
+            <p class="footer__text">
+              お客様からいただいた個人情報は商品の発送とご連絡以外には一切使用致しません。<br>
+              当社が責任をもって安全に蓄積・保管し、第三者に譲渡・提供することはございません。</p>
+            <div class="footer__moreArea">
+              <a href="#" class="footer__more">詳しくはこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copy">Copyright (c) 都香庵 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- script.js -->
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
