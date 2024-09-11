@@ -739,10 +739,9 @@ a:hover {
 }
 .footer {
   width: 100%;
-  max-width: 1015px;
+  max-width: 1030px;
   margin-left: auto;
-  padding-top: 100px;
-  padding-right: 15px;
+  padding: 100px 15px 0;
 }
 
 @media screen and (max-width: 767px) {
